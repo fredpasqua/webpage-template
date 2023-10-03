@@ -66,10 +66,12 @@ input {
   position: relative;
   margin-top: 100px;
   background-color: rgba(17, 76, 83, 0.748);
+
 }
 .background {
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
+
 }
 .text-element {
   margin: 20px;
@@ -175,6 +177,7 @@ input {
 @media (min-width: 992px) {
   .parent {
     margin-top: 30px;
+    margin-bottom: 30px;
     max-width: 1920px;
   }
   .text-element {
@@ -195,6 +198,7 @@ input {
 @media (min-width: 1200px) {
   .parent {
     margin-top: 75px;
+    margin-bottom: 75px;
   }
   .text-element {
     margin: 10px;
