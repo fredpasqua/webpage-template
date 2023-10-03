@@ -87,6 +87,15 @@ input {
 }
 
 .Header-Button {
-  background-color: rgb(71, 79, 246);
+  background-color: rgba(17, 76, 83, 0.748);
   width: 200px;
+
+}
+
+.Header-Button:hover {
+  background-color: rgba(17, 76, 83, 0.956);
+}
+
+.Header-Button:active {
+  background-color: rgba(3, 38, 42, 0.956) !important;
 }
