@@ -73,7 +73,6 @@ input {
   justify-content: center;
 }
 .HeaderText h2 {
-
   font-size: 64px;
   font-weight: 800;
   color: white;
@@ -90,6 +89,4 @@ input {
 .Header-Button {
   background-color: rgb(71, 79, 246);
   width: 200px;
-  ;
-
 }
