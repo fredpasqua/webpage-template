@@ -65,7 +65,7 @@ input {
   width: 100vw;
   position: relative;
   margin-top: 100px;
-  background-color: rgba(17, 76, 83, 0.748);
+  background-color: rgba(17, 76, 83, 0.67);
 
 }
 .background {
@@ -102,7 +102,7 @@ input {
   .text-element h2 {
     font-size: 26px;
     padding: 0px;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 100vw;
     position: absolute;
   }
