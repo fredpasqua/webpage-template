@@ -18,8 +18,7 @@ export default function Banner() {
             </p>
             <p className="animate__animated animate__fadeInUp">
               Whatever you desire, your city has something special waiting right
-              around the corner. Don't worry about that until you find something
-              else.
+              around the corner.
             </p>
           </div>
           <div className="image-element">
