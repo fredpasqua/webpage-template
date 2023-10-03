@@ -65,7 +65,7 @@ input {
   width: 100vw;
   position: relative;
   margin-top: 100px;
-  background-color: rgba(17, 76, 83, 0.67);
+  background-color: rgba(4, 50, 55, 0.649);
 
 }
 .background {
@@ -75,22 +75,25 @@ input {
 }
 .text-element {
   margin: 20px;
+  z-index: 9999;
 }
 .text-element h2 {
   font-size: larger;
   color: white;
   margin-bottom: 1.1rem;
+  text-shadow: 2px 3px rgba(36, 36, 36, 0.4)
 }
 .text-element p {
   padding: 10px 0 0 0;
   color: white;
+  text-shadow: 2px 3px rgba(25, 25, 25, 0.4)
 }
 .image-element {
   min-width: 30%;
   bottom: 0;
   transition: all 0.5s ease-out;
-  
 }
+
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -212,7 +215,7 @@ input {
     position: absolute;
   }
   .text-element p {
-    height: 35%;
+    height: 50%;
     padding: 50px 0 0 0;
     color: white;
     font-size: 24px;

@@ -5,18 +5,16 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [heroBanner, setHeroBanner] = useState(false);
-  const [header, setHeader] = useState(true);
+ 
   const handleClick = () => {
-    setHeroBanner(!heroBanner);
-    setHeader(!header);
+    alert("button clicked");
   };
   return (
     <>
       <BasicExample />
       <div className="app-displayer">
-        {header ? <Header handleClick={handleClick} /> : null}
-        {heroBanner ? <Banner /> : null}
+        <Header handleClick={handleClick} />
+        <Banner />
       </div>
     </>
   );
