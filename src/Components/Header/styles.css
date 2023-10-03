@@ -77,4 +77,5 @@ input {
 .HeaderBackground {
   background-image: url(./images/background.jpg);
   object-fit: contain;
+  background-repeat: no-repeat;
 }

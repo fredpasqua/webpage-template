@@ -69,6 +69,7 @@ input {
 }
 .background {
   background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
 }
 .text-element {
   margin: 20px;
@@ -174,6 +175,7 @@ input {
 @media (min-width: 992px) {
   .parent {
     margin-top: 30px;
+    max-width: 1920px;
   }
   .text-element {
     margin: 20px;
