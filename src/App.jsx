@@ -1,16 +1,14 @@
 import Header from './Components/Header/component.jsx';
 import Banner from './Components/HeroBanner/component.jsx';
-import NavScrollExample from "./Components/Navigation/navbar.jsx";
-import './App.css'
+import BasicExample from "./Components/Navigation/navbar.jsx";
+import "./App.css";
 const heroBanner = true;
-const header = true; 
-
+const header = true;
 
 function App() {
-
   return (
     <>
-      <NavScrollExample />
+      <BasicExample />
       {header ? <Header /> : null}
       {heroBanner ? <Banner /> : null}
     </>

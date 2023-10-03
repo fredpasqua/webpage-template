@@ -159,7 +159,7 @@ input {
   }
   .text-element {
     margin: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .image-element img {
     position: relative;
@@ -208,8 +208,10 @@ input {
     position: absolute;
   }
   .text-element p {
+    height: 35%;
     padding: 50px 0 0 0;
     color: white;
+    font-size: 24px;
   }
   .image-element img {
     max-height: 120%;
