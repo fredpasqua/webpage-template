@@ -9,8 +9,10 @@ function App() {
   return (
     <>
       <BasicExample />
-      {header ? <Header /> : null}
-      {heroBanner ? <Banner /> : null}
+      <div className="app-displayer">
+        {header ? <Header /> : null}
+        {heroBanner ? <Banner /> : null}
+      </div>
     </>
   );
 }
