@@ -24,7 +24,7 @@ export default function Banner() {
           </div>
           <div className="image-element">
             <img
-              className="animate__animated animate__fadeInRight"
+              className="animate__animated animate__fadeInRight brightness"
               src="src/Components/HeroBanner/images/girl.png"
             />
           </div>

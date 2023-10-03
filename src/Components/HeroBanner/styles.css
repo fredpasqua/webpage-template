@@ -93,7 +93,9 @@ input {
   bottom: 0;
   transition: all 0.5s ease-out;
 }
-
+.brightness {
+  filter: brightness(0.8)
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -155,6 +157,7 @@ input {
     right: 5%;
     transition: all 0.5s ease-out;
   }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
