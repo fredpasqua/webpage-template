@@ -12,13 +12,14 @@ export default function Banner() {
             </h2>
 
             <p className="animate__animated animate__fadeInUp">
-              Cities are excellent places. Places to find your passion, enjoy
-              art or a fine meal. You are never more than arms distance from a
-              new friend.
+              Cities are melting pots of different cultures, languages, and
+              traditions. This diversity provides opportunities to experience a
+              variety of cuisines, festivals, and art forms from around the
+              world.
             </p>
             <p className="animate__animated animate__fadeInUp">
-              Whatever you desire, your city has something special waiting right
-              around the corner.
+              Opportunities to make new friends and connect with like-minded
+              individuals await.
             </p>
           </div>
           <div className="image-element">
