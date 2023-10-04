@@ -1,4 +1,7 @@
 import "./styles.css";
+import girl1 from "../../../src/assets/images/girl-denim-shirt.jpg";
+import man1 from "../../../src/assets/images/guy-black-shirt.jpg";
+import girl2 from "../../../src/assets/images/girl-blue-shirt.jpg";
 import StarRating from "./starRating";
 
 // import guy from "../../../src/assets/images/guy-black-shirt.jpg";
@@ -8,19 +11,19 @@ const CityTourReviews = () => {
   const reviews = [
     {
       id: 1,
-      userImage: "../../../src/assets/images/girl-denim-shirt.jpg",
-      rating: 5,
+      userImage: girl1,
+      rating: 3.5,
       reviewText: "Amazing city tour experience!",
     },
     {
       id: 2,
-      userImage: "../../../src/assets/images/guy-black-shirt.jpg",
+      userImage: man1,
       rating: 4,
       reviewText: "Great tour guide and interesting sights.",
     },
     {
       id: 3,
-      userImage: "../../../src/assets/images/girl-blue-shirt.jpg",
+      userImage: girl2,
       rating: 5,
       reviewText: "I would highly recommend this tour to everyone.",
     },
