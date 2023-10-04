@@ -2,7 +2,7 @@ import Header from './Components/Header/component.jsx';
 import Banner from './Components/HeroBanner/component.jsx';
 import BasicExample from "./Components/Navigation/navbar.jsx";
 import CityTourReviews from "./Components/Testimonials/component.jsx";
-
+import Footer from "./Components/Footer/footer.jsx";
 import "./App.css";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Banner />
         <CityTourReviews />
       </div>
+      <Footer />
     </>
   );
 }
