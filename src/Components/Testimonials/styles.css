@@ -37,9 +37,8 @@
 .review-text {
     font-size: 18px;
 }
-
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 200px) {
     .city-tour-reviews {
         display: flex;
         flex-wrap: wrap;
@@ -47,8 +46,49 @@
         align-items: center;
         gap: 5px;
         width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .review-box {
+        background-color: #1e828fb7;
+        border: 1px solid #ddd;
+        padding: 5px;
+        width: 100vw;
+        height: 200px;
+        margin: 0px;
+        text-align: center;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+    }
+
+    .user-image img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+
+    .rating {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .review-text {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 765px) {
+    .city-tour-reviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100vw;
+    margin-top: 10px;
     }
 
     .review-box {
@@ -95,7 +135,7 @@ font-size: 16px;
     .review-box {
         background-color: #1e828fb7;
         border: 1px solid #ddd;
-width: 225px;
+width: 250px;
         height: 250px;
         margin: 0px;
         text-align: center;
