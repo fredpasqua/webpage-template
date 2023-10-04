@@ -1,6 +1,6 @@
 import './styles.css';
 import 'animate.css';
-
+import girl from "../../../public/images/girl.png";
 export default function Banner() {
   return (
     <>
@@ -25,7 +25,7 @@ export default function Banner() {
           <div className="image-element">
             <img
               className="animate__animated animate__fadeInRight brightness"
-              src="src/Components/HeroBanner/images/girl.png"
+              src={girl}
             />
           </div>
         </div>
