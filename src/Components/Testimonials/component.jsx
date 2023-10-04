@@ -1,6 +1,8 @@
 import "./styles.css";
 import StarRating from "./starRating";
 
+// import guy from "../../../src/assets/images/guy-black-shirt.jpg";
+// import girlBlueShirt from "../../../src/assets/images/girl-blue-shirt.jpg";
 const CityTourReviews = () => {
   // Sample review data (you can replace it with your own data)
   const reviews = [
