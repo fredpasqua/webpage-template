@@ -12,10 +12,8 @@ export default function Banner() {
             </h2>
 
             <p className="animate__animated animate__fadeInUp">
-              Cities are melting pots of different cultures, languages, and
-              traditions. This diversity provides opportunities to experience a
-              variety of cuisines, festivals, and art forms from around the
-              world.
+              Cities provide opportunities to explore an abundance of different
+              cuisines, festivals, and art forms.
             </p>
             <p className="animate__animated animate__fadeInUp">
               Opportunities to make new friends and connect with like-minded
