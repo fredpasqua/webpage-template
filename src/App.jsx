@@ -1,11 +1,11 @@
 import Header from './Components/Header/component.jsx';
 import Banner from './Components/HeroBanner/component.jsx';
 import BasicExample from "./Components/Navigation/navbar.jsx";
-import { useState } from "react";
+import CityTourReviews from "./Components/Testimonials/component.jsx";
+
 import "./App.css";
 
 function App() {
- 
   const handleClick = () => {
     alert("button clicked");
   };
@@ -15,6 +15,7 @@ function App() {
       <div className="app-displayer">
         <Header handleClick={handleClick} />
         <Banner />
+        <CityTourReviews />
       </div>
     </>
   );
