@@ -6,19 +6,19 @@ const CityTourReviews = () => {
   const reviews = [
     {
       id: 1,
-      userImage: "../../../public/images/girl-denim-shirt.jpg",
+      userImage: "../../../src/images/girl-denim-shirt.jpg",
       rating: 5,
       reviewText: "Amazing city tour experience!",
     },
     {
       id: 2,
-      userImage: "../../../public/images/guy-black-shirt.jpg",
+      userImage: "../../../src/images/guy-black-shirt.jpg",
       rating: 4,
       reviewText: "Great tour guide and interesting sights.",
     },
     {
       id: 3,
-      userImage: "../../../public/images/girl-blue-shirt.jpg",
+      userImage: "../../../src/images/girl-blue-shirt.jpg",
       rating: 5,
       reviewText: "I would highly recommend this tour to everyone.",
     },

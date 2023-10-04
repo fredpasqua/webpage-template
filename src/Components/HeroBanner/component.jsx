@@ -1,6 +1,6 @@
 import './styles.css';
 import 'animate.css';
-import girl from "../../../public/images/girl.png";
+import girl from "../../../src/images/girl.png";
 export default function Banner() {
   return (
     <>
