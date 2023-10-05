@@ -10,7 +10,6 @@ export default function Banner() {
             <h2 className="animate__animated animate__fadeInDown">
               Find Your Place
             </h2>
-
             <p className="animate__animated animate__fadeInUp">
               Cities provide opportunities to explore an abundance of different
               cuisines, festivals, and art forms.
