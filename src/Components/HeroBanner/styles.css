@@ -14,17 +14,14 @@
 .text-element {
   display: flex;
     flex-direction: column;
-    border: 4px solid red;
 }
 .text-element h2 {
   color: white;
   text-shadow: 2px 3px rgba(36, 36, 36, 0.4);
-  border: 2px solid orange;
 }
 .text-element p {
   color: white;
   text-shadow: 2px 3px rgba(25, 25, 25, 0.4);
-  border: 2px solid yellow;
 }
 .image-element {
   min-width: 30%;
@@ -43,15 +40,16 @@
   }
   .text-element h2 {
     font-size: 28px;
-    padding: 0px;
+    padding: 5px;
     color: rgb(255, 255, 255);
   }
 .text-element p {
     color: white;
-    font: 23px;
+    font: 24px;
+      padding: 5px;
   }
   .text-element {
-    font-size: 16px;
+  margin-top: 40px
   }
   .image-element {
     left: 10%;
