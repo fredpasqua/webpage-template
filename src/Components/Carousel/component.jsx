@@ -1,34 +1,41 @@
-import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage from "../../../src/assets/images/philly.jpg";
+import NYC from "../../../src/assets/images/NYC.jpg";
+import PHILLY from "../../../src/assets/images/philly.jpg";
+import LA from "../../../src/assets/images/LA.jpg";
+export default function Slider() {
+  const cities = [
+    {
+      id: 1,
+      cityImage: NYC,
 
-function Slider() {
+      titleText: "Take a bite out of the big apple",
+    },
+    {
+      id: 2,
+      cityImage: PHILLY,
+
+      titleText: "Brotherly love and soft pretzels",
+    },
+    {
+      id: 3,
+      cityImage: LA,
+
+      titleText: "It's always a good dat to be in L.A.",
+    },
+  ];
+
   return (
-    <Carousel>
-      <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div>
+      <h2 className="review-title">City Tours</h2>
+      <div className="city-tour-locations">
+        {cities.map((city) => (
+          <div className="city-box" key={city.id}>
+            <div className="city-image">
+              <img src={city.cityImage} alt={`city ${city.id}`} />
+            </div>
+            <div className="city-text">{city.titleText}</div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
-
-export default Slider;
