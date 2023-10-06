@@ -2,6 +2,7 @@ import NYC from "../../../src/assets/images/NYC.jpg";
 import PHILLY from "../../../src/assets/images/philly.jpg";
 import LA from "../../../src/assets/images/LA.jpg";
 import "./styles.css";
+import "animate.css";
 export default function Slider() {
   const cities = [
     {
@@ -37,7 +38,10 @@ export default function Slider() {
       <h2 className="review-title">City Tours</h2>
       <div className="city-tour-container">
         {cities.map((city) => (
-          <div className="city-box" key={city.id}>
+          <div
+            className="city-box animate__animated animate__fadeInLeftBig"
+            key={city.id}
+          >
             <a className="city-link" href="#">
               <div className="city-image">
                 <img src={city.cityImage} alt={`city ${city.id}`} />
