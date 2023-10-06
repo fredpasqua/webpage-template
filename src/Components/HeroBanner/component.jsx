@@ -1,6 +1,6 @@
 import './styles.css';
 import 'animate.css';
-import { 
+import { useInView } from "react-intersection-observer";
 import girl from "../../../src/assets/images/girl.png";
 export default function Banner() {
   return (
