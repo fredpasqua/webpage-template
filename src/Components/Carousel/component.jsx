@@ -31,38 +31,38 @@ export default function Slider() {
         "Los Angeles' 'Star-Studded Stroll' tour promises a glamorous journey through the city's sidewalks, where you can pretend you're an A-lister while trying to spot actual A-listers. Remember, in LA, even the palm trees have agents!",
       titleText: "Rub elbows with the stars",
     },
-    {
-      id: 4,
-      name: "Chicago, IL",
-      cityImage: PHILLY,
-      shortCopy:
-        "Experience the Windy City's vibrant culture, iconic architecture, and world-class cuisine. Don't forget to take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at the famous Portillo's!",
-      titleText: "Discover the Charm of the Windy City",
-    },
-    {
-      id: 5,
-      name: "Phoenix, AZ",
-      cityImage: "Phoenix_Image_URL",
-      shortCopy:
-        "Experience the desert beauty of Phoenix, Arizona. Hike the Camelback Mountain, visit the Desert Botanical Garden, and enjoy the vibrant Southwestern cuisine. Don't miss the stunning sunsets in the Valley of the Sun!",
-      titleText: "Explore the Desert Oasis",
-    },
-    {
-      id: 6,
-      name: "Denver, CO",
-      cityImage: "Denver_Image_URL",
-      shortCopy:
-        "Discover the Mile-High City, Denver. Explore the Rocky Mountains, stroll through the historic Larimer Square, and indulge in craft beer at local breweries. With its outdoor adventures and cultural attractions, Denver has something for everyone!",
-      titleText: "Adventures Await in Denver",
-    },
-    {
-      id: 7,
-      name: "Las Vegas, NV",
-      cityImage: "LasVegas_Image_URL",
-      shortCopy:
-        "Experience the dazzling lights and entertainment of Las Vegas. From world-class shows and casinos on the Strip to the natural wonders of Red Rock Canyon, Las Vegas offers a unique blend of excitement and natural beauty.",
-      titleText: "Entertainment Capital of the World",
-    },
+    // {
+    //   id: 4,
+    //   name: "Chicago, IL",
+    //   cityImage: PHILLY,
+    //   shortCopy:
+    //     "Experience the Windy City's vibrant culture, iconic architecture, and world-class cuisine. Don't forget to take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at the famous Portillo's!",
+    //   titleText: "Discover the Charm of the Windy City",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Phoenix, AZ",
+    //   cityImage: "Phoenix_Image_URL",
+    //   shortCopy:
+    //     "Experience the desert beauty of Phoenix, Arizona. Hike the Camelback Mountain, visit the Desert Botanical Garden, and enjoy the vibrant Southwestern cuisine. Don't miss the stunning sunsets in the Valley of the Sun!",
+    //   titleText: "Explore the Desert Oasis",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Denver, CO",
+    //   cityImage: "Denver_Image_URL",
+    //   shortCopy:
+    //     "Discover the Mile-High City, Denver. Explore the Rocky Mountains, stroll through the historic Larimer Square, and indulge in craft beer at local breweries. With its outdoor adventures and cultural attractions, Denver has something for everyone!",
+    //   titleText: "Adventures Await in Denver",
+    // },
+    // {
+    //   id: 7,
+    //   name: "Las Vegas, NV",
+    //   cityImage: "LasVegas_Image_URL",
+    //   shortCopy:
+    //     "Experience the dazzling lights and entertainment of Las Vegas. From world-class shows and casinos on the Strip to the natural wonders of Red Rock Canyon, Las Vegas offers a unique blend of excitement and natural beauty.",
+    //   titleText: "Entertainment Capital of the World",
+    // },
   ];
 
   return (
