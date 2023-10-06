@@ -1,5 +1,6 @@
 import './styles.css';
 import 'animate.css';
+import { 
 import girl from "../../../src/assets/images/girl.png";
 export default function Banner() {
   return (
@@ -7,7 +8,7 @@ export default function Banner() {
       <div className="background">
         <div className="parent">
           <div className="text-element">
-            <h2 className="animate__animated animate__fadeInDown">
+            <h2 ref={myRef} className="animate__animated animate__fadeInDown">
               Find Your Place
             </h2>
             <p className="animate__animated animate__fadeInUp">
