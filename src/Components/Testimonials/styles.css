@@ -1,3 +1,9 @@
+.review-title {
+    font-size: 36px;
+    text-align: center;
+    color: #012421;
+    padding: 20px 0 0 10px;
+}
 .city-tour-reviews {
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +45,9 @@
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 200px) {
+    .review-title {
+            font-size: 24px;
+        }
     .city-tour-reviews {
         display: flex;
         flex-wrap: wrap;
@@ -81,6 +90,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 765px) {
+    .review-title {
+            font-size: 32px;
+        }
     .city-tour-reviews {
         display: flex;
         flex-wrap: wrap;
@@ -165,6 +177,9 @@ width: 250px;
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .review-title {
+            font-size: 36px;
+        }
     .city-tour-reviews {
         display: flex;
         flex-wrap: wrap;

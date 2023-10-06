@@ -30,19 +30,22 @@ const CityTourReviews = () => {
   ];
 
   return (
-    <div className="city-tour-reviews">
-      {reviews.map((review) => (
-        <div className="review-box" key={review.id}>
-          <div className="user-image">
-            <img src={review.userImage} alt={`User ${review.id}`} />
+    <div>
+      <h2 className="review-title">Tour Reviews</h2>
+      <div className="city-tour-reviews">
+        {reviews.map((review) => (
+          <div className="review-box" key={review.id}>
+            <div className="user-image">
+              <img src={review.userImage} alt={`User ${review.id}`} />
+            </div>
+            <div className="rating">
+              {/* Assuming you have a StarRating component */}
+              <StarRating rating={review.rating} />
+            </div>
+            <div className="review-text">{review.reviewText}</div>
           </div>
-          <div className="rating">
-            {/* Assuming you have a StarRating component */}
-            <StarRating rating={review.rating} />
-          </div>
-          <div className="review-text">{review.reviewText}</div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
