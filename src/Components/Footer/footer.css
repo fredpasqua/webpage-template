@@ -1,6 +1,6 @@
 .footer {
     background-color: #ffffff;
-    color: #012421;
+    color: var(--darkText);
     padding: 20px 0;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .social-icons a {
-    color: #012421;
+    color: var(--darkText);
     font-size: 24px;
     margin-left: 10px;
     text-decoration: none;
 }
 
 .social-icons a:hover {
-    color: #007bff;
+    color: var(--darkTextHover);
 }

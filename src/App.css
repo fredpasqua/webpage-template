@@ -3,5 +3,6 @@
 :root {
     --cardBgColor: #278794;
     --darkText: #032e34f4;
+    --darkTextHover: #05444df4;
     --lightText: rgb(255, 255, 255);
 }
