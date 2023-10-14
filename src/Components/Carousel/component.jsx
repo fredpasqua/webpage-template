@@ -71,16 +71,14 @@ export default function Badge() {
   ];
 
   return (
-    <div>
+    <div
+      ref={ref}
+      className={inView ? "animate__animated animate__fadeInLeftBig" : null}
+    >
       <h2 className="review-title">City Tours</h2>
       <div className="city-tour-container">
         {cities.map((city) => (
-          <div
-            key={city.id}
-            ref={ref}
-            className={`city-box 
-            ${inView ? "animate__animated animate__fadeInLeftBig" : "hide"}`}
-          >
+          <div key={city.id} className="city-box">
             <a className="city-link" href="#">
               <div className="city-image">
                 <img src={city.cityImage} alt={`city ${city.id}`} />
