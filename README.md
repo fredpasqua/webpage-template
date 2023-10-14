@@ -1,8 +1,23 @@
-# React + Vite
+# Landing Page Sample
+## Front End Design Work
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Home page design built with React showcasing responsive design elements, global colors scheme and animated home page componenets.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Navbar (bootstrap)
+- Header Image with Button
+- Hero Image and info container (Animated when in view, responsive design)
+- Badges (Responsive and Animated when in view)
+- Review section (Responsive, star ratings)
+- Footer section (Address, info, social icons)
+## Tech
+
+Webpage uses a number of open source projects to work properly:
+
+- React.js 
+- React Bootstrap
+- Font Awesome icons
+- Animate.css
+- React Intersection Observer
+- Javascript: .map(), Conditional ternaray operator to add classNames, React functional components, passing props, JSON etc...
