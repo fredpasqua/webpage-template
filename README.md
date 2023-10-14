@@ -1,8 +1,14 @@
-# React + Vite
+WEBPAGE TEMPLATE:
+A Homepage template built with REACT and VITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Purpose: - FRONT END DESIGN WORK -
 
-Currently, two official plugins are available:
+contains:
+  Navbar (Bootstrap)
+  Header Image with clickable button
+  Hero Image with Text (animated when in view and responsive)
+  Info Badges (animated when in view and responsive)
+  Reviews (Responsive design with avatar images and ratings stars)
+  Footer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+USES GLOBAL VARIABLES FOR COLOR SCHEME
