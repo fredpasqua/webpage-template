@@ -1,9 +1,9 @@
-Landing Page Sample
-Front End Design Work
+# Landing Page Sample
+## Front End Design Work
 
 A Home page design built with React showcasing responsive design elements, global colors scheme and animated home page componenets.
 
-Features
+## Features
 
 - Navbar (bootstrap)
 - Header Image with Button
@@ -11,7 +11,7 @@ Features
 - Badges (Responsive and Animated when in view)
 - Review section (Responsive, star ratings)
 - Footer section (Address, info, social icons)
-Tech
+## Tech
 
 Webpage uses a number of open source projects to work properly:
 
@@ -20,5 +20,4 @@ Webpage uses a number of open source projects to work properly:
 - Font Awesome icons
 - Animate.css
 - React Intersection Observer
-- Javascript: .map(), Conditional ternaray operator to add classNames.
-
+- Javascript: .map(), Conditional ternaray operator to add classNames, React functional components, passing props, JSON etc...
