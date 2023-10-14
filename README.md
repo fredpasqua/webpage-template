@@ -1,14 +1,24 @@
-WEBPAGE TEMPLATE:
-A Homepage template built with REACT and VITE
+Landing Page Sample
+Front End Design Work
 
-Purpose: - FRONT END DESIGN WORK -
+A Home page design built with React showcasing responsive design elements, global colors scheme and animated home page componenets.
 
-contains:
-  Navbar (Bootstrap)
-  Header Image with clickable button
-  Hero Image with Text (animated when in view and responsive)
-  Info Badges (animated when in view and responsive)
-  Reviews (Responsive design with avatar images and ratings stars)
-  Footer
+Features
 
-USES GLOBAL VARIABLES FOR COLOR SCHEME
+- Navbar (bootstrap)
+- Header Image with Button
+- Hero Image and info container (Animated when in view, responsive design)
+- Badges (Responsive and Animated when in view)
+- Review section (Responsive, star ratings)
+- Footer section (Address, info, social icons)
+Tech
+
+Webpage uses a number of open source projects to work properly:
+
+- React.js 
+- React Bootstrap
+- Font Awesome icons
+- Animate.css
+- React Intersection Observer
+- Javascript: .map(), Conditional ternaray operator to add classNames.
+
