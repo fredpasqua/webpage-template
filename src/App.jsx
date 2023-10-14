@@ -1,6 +1,6 @@
 import Header from './Components/Header/component.jsx';
 import Banner from './Components/HeroBanner/component.jsx';
-import BasicExample from "./Components/Navigation/navbar.jsx";
+import Navigation from "./Components/Navigation/navbar.jsx";
 import CityTourReviews from "./Components/Testimonials/component.jsx";
 import Footer from "./Components/Footer/footer.jsx";
 import Slider from "./Components/Carousel/component.jsx";
@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <>
-      <BasicExample />
+      <Navigation />
       <div className="app-displayer">
         <Header handleClick={handleClick} />
         <Banner />
