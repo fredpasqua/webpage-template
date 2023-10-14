@@ -3,7 +3,12 @@ import PHILLY from "../../../src/assets/images/philly.jpg";
 import LA from "../../../src/assets/images/LA.jpg";
 import "./styles.css";
 import "animate.css";
+import { useInView } from "react-intersection-observer";
 export default function Badge() {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    delay: 500,
+  });
   const cities = [
     {
       id: 1,
@@ -71,8 +76,10 @@ export default function Badge() {
       <div className="city-tour-container">
         {cities.map((city) => (
           <div
-            className="city-box animate__animated animate__fadeInLeftBig"
             key={city.id}
+            ref={ref}
+            className={`city-box 
+            ${inView ? "animate__animated animate__fadeInLeftBig" : "hide"}`}
           >
             <a className="city-link" href="#">
               <div className="city-image">
