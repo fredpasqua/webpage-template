@@ -12,14 +12,14 @@ export default function Slider() {
       shortCopy:
         "In New York, join the 'Pizza Parade' tour, where you'll discover that there's no slice like the Big Apple's slice. Warning: You might leave with a pizza-shaped heart, but you won't regret a single cheesy bite!",
 
-      titleText: "Take a bite out of the big apple",
+      titleText: "Take a bite of the big apple",
     },
     {
       id: 2,
       name: "Philadelphia, PA",
       cityImage: PHILLY,
       shortCopy:
-        "Philadelphia's 'Cheesesteak Shuffle' tour will have you waddling from one iconic cheesesteak joint to another, in a quest to crown the city's cheesesteak champion. Just remember, it's not about the calories; it's about the cheese-tastic memories!",
+        "Philadelphia's 'Cheesesteak Shuffle' tour will have you waddling from one iconic cheesesteak joint to another, in a quest to crown the city's cheesesteak champion. You'll leave \"wit\" great memories.",
 
       titleText: "Brotherly love wit great eats!",
     },
@@ -28,7 +28,7 @@ export default function Slider() {
       name: "Los Angeles, CA",
       cityImage: LA,
       shortCopy:
-        "Los Angeles' 'Star-Studded Stroll' tour promises a glamorous journey through the city's sidewalks, where you can pretend you're an A-lister while trying to spot actual A-listers. Remember, in LA, even the palm trees have agents!",
+        "Los Angeles' 'Star-Studded Stroll' tour promises a glamorous journey through the city's sidewalks, where you can pretend to be an A-lister while trying to spot actual A-listers. Even the palm trees have agents!",
       titleText: "Rub elbows with the stars",
     },
     // {

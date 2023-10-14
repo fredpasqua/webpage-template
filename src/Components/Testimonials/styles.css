@@ -1,7 +1,8 @@
+
 .review-title {
     font-size: 36px;
     text-align: center;
-    color: #012421;
+    color: var(--darkText);
     padding: 20px 0 0 10px;
 }
 .city-tour-reviews {
@@ -16,7 +17,7 @@
 }
 
 .review-box {
-    background-color: #1e828fb7;
+    background-color: var(--cardBgColor);
     border: 1px solid #ddd;
     padding: 20px;
     width: 300px;
@@ -36,12 +37,14 @@
 }
 
 .rating {
+    color: var(--lightText);
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .review-text {
     font-size: 18px;
+    color: var(--lightText)
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 200px) {
@@ -59,7 +62,7 @@
     }
 
     .review-box {
-        background-color: #1e828fb7;
+    
         border: 1px solid #ddd;
         padding: 5px;
         width: 100vw;
@@ -104,7 +107,7 @@
     }
 
     .review-box {
-        background-color: #1e828fb7;
+    
         border: 1px solid #ddd;
         padding: 20px;
         width: 250px;
@@ -145,7 +148,7 @@ font-size: 16px;
     }
 
     .review-box {
-        background-color: #1e828fb7;
+    
         border: 1px solid #ddd;
 width: 250px;
         height: 250px;
@@ -192,7 +195,7 @@ width: 250px;
     }
 
 .review-box {
-    background-color: #1e828fb7;
+
     border: 1px solid #ddd;
     padding: 20px;
     width: 300px;
