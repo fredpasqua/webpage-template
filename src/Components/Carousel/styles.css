@@ -21,7 +21,7 @@
 .short-copy {
     max-width: 400px;
     padding: 20px;
-    color: white;
+    color: var(--lightText);
 
 }
 
@@ -47,15 +47,15 @@
 
 .city-name {
     padding: 10px;
-    color: #012421;
+    color: var(--darkText);
 }
 
 .city-text {
     font-size: 23px;
-    color: #fff;
+    
     z-index: 2;
     text-align: center;
-    color: white;
+    color: var(--lightText);
     padding: 10px;
         word-wrap: balance;
 }
@@ -75,7 +75,7 @@
         width: 25%;
         height: 75%;
         margin: 5px;
-        background-color: #0d535cd0;
+
         border-radius: 20px;
         -webkit-box-shadow: 4px 4px 7px -4px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 4px 4px 7px -4px rgba(0, 0, 0, 0.75);
@@ -85,7 +85,7 @@
     .short-copy {
         max-width: 400px;
         padding: 20px;
-        color: white;
+    
 
     }
 
