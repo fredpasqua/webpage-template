@@ -3,7 +3,7 @@ import Banner from './Components/HeroBanner/component.jsx';
 import Navigation from "./Components/Navigation/navbar.jsx";
 import CityTourReviews from "./Components/Testimonials/component.jsx";
 import Footer from "./Components/Footer/footer.jsx";
-import Slider from "./Components/Carousel/component.jsx";
+import Badge from "./Components/Carousel/component.jsx";
 import "./App.css";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <div className="app-displayer">
         <Header handleClick={handleClick} />
         <Banner />
-        <Slider />
+        <Badge />
         <CityTourReviews />
       </div>
       <Footer />

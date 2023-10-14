@@ -1,8 +1,8 @@
 /*Global Color Palatte*/
 
 :root {
-    --cardBgColor: #278794;
-    --darkText: #032e34f4;
-    --darkTextHover: #05444df4;
+    --cardBgColor: #1a6969;
+        --darkText: #02292e;
+        --darkTextHover: #094d58f4;
     --lightText: rgb(255, 255, 255);
 }

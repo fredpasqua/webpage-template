@@ -3,7 +3,7 @@ import PHILLY from "../../../src/assets/images/philly.jpg";
 import LA from "../../../src/assets/images/LA.jpg";
 import "./styles.css";
 import "animate.css";
-export default function Slider() {
+export default function Badge() {
   const cities = [
     {
       id: 1,
