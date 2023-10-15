@@ -12,6 +12,7 @@
   border: 6px solid var(--cardBgColor);
   box-shadow: 3px 3px 3px #070f3ab2;
 }
+
 .HeaderText {
   display: flex;
   flex-direction: column;
@@ -34,7 +35,7 @@
   background-color: rgba(17, 76, 83, 0.748);
   width: 175px;
   margin: 10px;
-    box-shadow: 3px 3px 3px #070f3a83;
+  box-shadow: 3px 3px 3px #070f3a83;
     border: 1px solid var(--cardBgColor);
 }
 
@@ -45,6 +46,7 @@
 .Header-Button:active {
   background-color: rgba(3, 38, 42, 0.956) !important;
 }
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 300px) {
@@ -79,10 +81,11 @@
 @media (min-width: 768px) {
   .HeaderBox {
     height: 400px;
-    }
+  
   .HeaderText h2 {
     font-size: 42px;
   }
+
     .HeaderText p {
       font-size: 19px;
       font-weight: 800;
@@ -95,12 +98,14 @@
     transition: all 0.5s ease-out;
   }
 }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .HeaderText h2 {
     font-size: 50px;
   }
+
         .HeaderText p {
           font-size: 23px;
           font-weight: 800;
@@ -146,8 +151,9 @@
       text-align: center;
       text-shadow: 2px 2px 2px #030a2c74;
     }
-                .HeaderText p {
-                  font-size: 23px;
+
+        .HeaderText p {
+          font-size: 23px;
     font-weight: 800;
     color: var(--cardBgColor);
     text-align: center;
