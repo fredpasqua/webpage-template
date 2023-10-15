@@ -1,95 +1,34 @@
-/* undohtml.css */
-/* (CC) 2004 Tantek Celik. Some Rights Reserved.             */
-/*   http://creativecommons.org/licenses/by/2.0                   */
-/* This style sheet is licensed under a Creative Commons License. */
-
-/* Purpose: undo some of the default styling of common (X)HTML browsers */
-
-/* link underlines tend to make hypertext less readable, 
-   because underlines obscure the shapes of the lower halves of words */
-:link,
-:visited {
-  text-decoration: none;
-}
-
-/* no list-markers by default, since lists are used more often for semantics */
-ul,
-ol {
-  list-style: none;
-}
-
-/* avoid browser default inconsistent heading font-sizes */
-/* and pre/code too */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code {
-  font-size: 1em;
-}
-
-/* remove the inconsistent (among browsers) default ul,ol padding or margin  */
-/* the default spacing on headings does not match nor align with 
-      normal interline spacing at all, so let's get rid of it. */
-/* zero out the spacing around pre, form, body, html, p, blockquote as well */
-/* form elements are oddly inconsistent, and not quite CSS emulatable. */
-/*  nonetheless strip their margin and padding as well */
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-body,
-html,
-p,
-blockquote,
-fieldset,
-input {
-  margin: 0;
-  padding: 0;
-}
-
 .HeaderBox {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
   height: 500px;
   align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.465);
+background-color: rgb(255, 255, 255);
+}
+
+.HeaderBoxImage img {
+  border-radius: 50%;
+  height: 400px;
 }
 .HeaderText {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--cardBgColor);
 }
+
 .HeaderText h2 {
   font-size: 64px;
   font-weight: 800;
-  color: white;
+  color: var(--cardBgColor);
   text-align: center;
   text-shadow: 3px 3px 7px #030a2c;
-}
-
-.HeaderBackground {
-  background-image: url(./images/background.jpg);
-  object-fit: contain;
-  background-repeat: no-repeat;
 }
 
 .Header-Button {
   background-color: rgba(17, 76, 83, 0.748);
   width: 200px;
-
 }
 
 .Header-Button:hover {
@@ -98,4 +37,90 @@ input {
 
 .Header-Button:active {
   background-color: rgba(3, 38, 42, 0.956) !important;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 300px) {
+  .HeaderBox {
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 400px;
+  }
+
+  .HeaderText h2 {
+    font-size: 32px;
+
+  }
+
+  .HeaderBoxImage img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) {
+  .HeaderText h2 {
+    font-size: 32px;
+
+  }
+
+  .HeaderBoxImage img {
+    height: 250px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .HeaderText h2 {
+    font-size: 42px;
+
+  }
+
+  .HeaderBoxImage img {
+    height: 300px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .HeaderText h2 {
+    font-size: 50px;
+
+  }
+
+  .HeaderBoxImage img {
+    height: 350px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .HeaderBox {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 80vw;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .HeaderBoxImage img {
+    border-radius: 50%;
+    height: 400px;
+  }
+
+  .HeaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cardBgColor);
+  }
+
+  .HeaderText h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--cardBgColor);
+    text-align: center;
+    text-shadow: 3px 3px 7px #030a2c;
+  }
 }
