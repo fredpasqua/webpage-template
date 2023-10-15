@@ -20,7 +20,7 @@ export default function Banner() {
               inView ? "animate__animated animate__fadeInUp" : "hide"
             }`}
           >
-            <h2 ref={ref}>Find Your Place</h2>
+            <h2 ref={ref}>Find Your Tribe</h2>
             <section>
               <p>
                 Cities provide opportunities to explore an abundance of
