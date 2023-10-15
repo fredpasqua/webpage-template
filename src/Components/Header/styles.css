@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 500px;
+
   align-items: center;
 background-color: rgb(255, 255, 255);
 }
@@ -16,6 +17,8 @@ background-color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
   color: var(--cardBgColor);
+  max-width: 50vw;
+    padding: 20px;
 }
 
 .HeaderText h2 {
@@ -23,12 +26,13 @@ background-color: rgb(255, 255, 255);
   font-weight: 800;
   color: var(--cardBgColor);
   text-align: center;
-  text-shadow: 3px 3px 7px #030a2c;
+  text-shadow: 3px 3px 3px #070f3a83;
 }
 
 .Header-Button {
   background-color: rgba(17, 76, 83, 0.748);
-  width: 200px;
+  width: 175px;
+    margin: 10px;
 }
 
 .Header-Button:hover {

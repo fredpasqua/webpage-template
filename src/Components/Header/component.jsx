@@ -7,7 +7,10 @@ export default function Header(props) {
       <div className="HeaderBox">
         <div className="HeaderText">
           <h2>City Tours USA</h2>
-          <p>Explore your favorite city in a whole new way.</p>
+          <p>
+            We provide the best and most creative tours that allow you to
+            explore your favorite city in a whole new way.
+          </p>
           <Button className="Header-Button" onClick={() => props.handleClick()}>
             Book A Tour
           </Button>
