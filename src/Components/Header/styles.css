@@ -79,8 +79,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .HeaderBox {
+.HeaderBox {
     height: 400px;
+}
   
   .HeaderText h2 {
     font-size: 42px;
@@ -98,7 +99,7 @@
     transition: all 0.5s ease-out;
   }
 }
-}
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
