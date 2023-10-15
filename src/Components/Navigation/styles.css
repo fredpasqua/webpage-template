@@ -1,0 +1,9 @@
+.navbar-brand {
+    color: var(--darkText) !important;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: white !important;
+}
