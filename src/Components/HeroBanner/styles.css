@@ -141,7 +141,8 @@
   }
     .text-element p {
     color: white;
-    font-size: 32px;
+    font-size: 30px;
+      padding: 5px;
   }
   .image-element img {
     max-height: 120%;
