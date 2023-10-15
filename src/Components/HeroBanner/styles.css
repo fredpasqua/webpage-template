@@ -40,13 +40,13 @@
   }
   .text-element h2 {
     font-size: 28px;
-    padding: 5px;
+    padding: 0 0 0 20px;
     color: rgb(255, 255, 255);
   }
 .text-element p {
     color: white;
     font: 24px;
-      padding: 5px;
+      padding: 20px;
   }
   .text-element {
   margin-top: 40px
