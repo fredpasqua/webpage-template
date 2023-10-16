@@ -5,7 +5,10 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
 }
-
+.HeaderBoxImage {
+  position: relative;
+  right: 20px;
+}
 .HeaderBoxImage img {
   border-radius: 50%;
   height: 400px;
@@ -61,8 +64,11 @@
   }
 
   .HeaderBoxImage img {
-    height: 200px;
+    position: relative;
+      height: 150px;
     transition: all 0.5s ease-out;
+    right: 0px;
+      top: -20px;
   }
 }
 
