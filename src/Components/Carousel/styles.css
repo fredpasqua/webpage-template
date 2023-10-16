@@ -47,7 +47,8 @@
 
 .city-name {
     padding: 10px;
-    color: var(--darkText);
+    color: var(--accentColor);
+        font-size: larger;
 }
 
 .city-text {
