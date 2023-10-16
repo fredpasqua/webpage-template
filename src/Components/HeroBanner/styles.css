@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   height: 400px;
-  width: 100vw;
+  width: 98vw;
   position: relative;
   margin-top: 100px;
   background-color: rgba(4, 50, 55, 0.649);
@@ -35,6 +35,9 @@
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 300px) {
+  * {
+      border: 1px red solid;
+    }
   .parent {
     margin-top: 0px;
   }
@@ -46,22 +49,23 @@
 .text-element p {
     color: white;
     font: 24px;
-      padding: 20px;
+      padding: 0 0 0 20px;
   }
   .text-element {
   margin-top: 40px
   }
   .image-element {
-    left: 10%;
-    min-width: 50%;
+    max-width: 50px !important;
     bottom: 0;
+    position: relative;
+      left: -80px;
   }
 
   .image-element img {
-    max-height: 70%;
+    max-height: 60%;
     position: relative;
-    top: 30%;
-    right: 30px;
+    top: 40%;
+      right: 0px;
     transition: all 0.5s ease-out;
   }
 }
