@@ -33,7 +33,7 @@
 }
 
 .rating {
-    color: var(--accentColor);
+    color: white;
     font-size: 24px;
     margin-bottom: 10px;
 }
