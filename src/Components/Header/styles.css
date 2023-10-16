@@ -55,7 +55,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 300px) {
+@media (min-width: 0px) {
   .HeaderBox {
     flex-wrap: wrap;
     flex-direction: column;
