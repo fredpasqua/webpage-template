@@ -22,7 +22,7 @@
     max-width: 400px;
     padding: 20px;
     color: var(--lightText);
-
+    font-size: 18px;
 }
 
 .city-image {
@@ -42,23 +42,21 @@
     opacity: .7;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-
 }
 
 .city-name {
-    padding: 5px 0 0 0;
+    padding: 10px 0 0 0;
         color: white;
         font-size: 32px;
 }
 
 .city-text {
-    font-size: 23px;
-    
+    font-size: 24px;
     z-index: 2;
     text-align: center;
     color: var(--lightText);
-    padding: 10px;
-        word-wrap: balance;
+    padding: 10px 0 0 0;
+        word-wrap: wrap;
 }
 
 .city-link img:hover {

@@ -26,7 +26,7 @@ export default function Badge() {
       shortCopy:
         "Philadelphia's 'Cheesesteak Shuffle' tour will have you waddling from one iconic cheesesteak joint to another, in a quest to crown the city's cheesesteak champion. You'll leave \"wit\" great memories.",
 
-      titleText: "Brotherly love wit great eats!",
+      titleText: "Brotherly love wit great eats",
     },
     {
       id: 3,
