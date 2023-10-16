@@ -6,7 +6,7 @@ export default function Header(props) {
     <>
       <div className="HeaderBox">
         <div className="HeaderText">
-          <h2>City Tours USA</h2>
+          <h2>Make a connection</h2>
           <p>
             We provide the best and most creative tours that allow you to
             explore your favorite city in a whole new way.

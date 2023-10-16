@@ -5,6 +5,7 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
 }
+
 .HeaderBoxImage {
   position: relative;
   right: 20px;
@@ -19,8 +20,7 @@
 .HeaderText {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   color: var(--cardBgColor);
   max-width: 50vw;
   padding: 20px;
@@ -30,16 +30,17 @@
   font-size: 64px;
   font-weight: 800;
   color: var(--cardBgColor);
-  text-align: center;
+  text-align: left;
   text-shadow: 2px 2px 2px #070f3a6a;
 }
 
 .Header-Button {
   background-color: rgba(17, 76, 83, 0.748);
-  width: 175px;
-  margin: 10px;
+  width: 100%;
+    max-width: 150px;
   box-shadow: 3px 3px 3px #070f3a83;
     border: 1px solid var(--cardBgColor);
+    
 }
 
 .Header-Button:hover {
@@ -65,11 +66,12 @@
 
   .HeaderBoxImage img {
     position: relative;
-      height: 150px;
+      height: 200px;
     transition: all 0.5s ease-out;
     right: 0px;
       top: -20px;
   }
+
 }
 
 @media (min-width: 576px) {
@@ -97,7 +99,7 @@
       font-size: 19px;
       font-weight: 800;
       color: var(--cardBgColor);
-      text-align: center;
+      text-align: left;
     }
 
   .HeaderBoxImage img {
@@ -117,7 +119,7 @@
           font-size: 23px;
           font-weight: 800;
           color: var(--cardBgColor);
-          text-align: center;
+          text-align: left;
         }
 
   .HeaderBoxImage img {
@@ -146,7 +148,7 @@
   .HeaderText {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     color: var(--cardBgColor);
   }
@@ -155,7 +157,7 @@
       font-size: 64px;
       font-weight: 800;
       color: var(--cardBgColor);
-      text-align: center;
+      text-align: left;
       text-shadow: 2px 2px 2px #030a2c74;
     }
 
@@ -163,6 +165,6 @@
           font-size: 23px;
     font-weight: 800;
     color: var(--cardBgColor);
-    text-align: center;
+    text-align: left;
   }
 }
