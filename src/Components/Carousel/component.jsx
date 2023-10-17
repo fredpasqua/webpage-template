@@ -94,7 +94,12 @@ export default function Badge() {
   return (
     <>
       <h2 className="review-title">City Tours</h2>
-      <Carousel responsive={responsive} swipeable={true} draggable={true}>
+      <Carousel
+        responsive={responsive}
+        swipeable={true}
+        draggable={true}
+        infinite={true}
+      >
         <div>
           <div className="city-tour-container">
             <div key={0} className="city-box">
