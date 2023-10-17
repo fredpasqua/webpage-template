@@ -91,122 +91,133 @@ export default function Badge() {
 
   return (
     <>
-      <h2 className="review-title">City Tours</h2>
-      <Carousel
-        responsive={responsive}
-        swipeable={true}
-        draggable={true}
-        infinite={true}
-      >
-        <div>
-          <div className="city-tour-container">
-            <a className="city-link" href="#">
-              <div key={0} className="city-box">
-                <div className="city-image">
-                  <img
-                    src={cities[0].cityImage}
-                    alt={`city ${cities[0].name}`}
-                  />
-                </div>
+      <div className="city-tours-container">
+        <section className="tourText">
+          <h2 className="review-title">City Tours</h2>
+          <p className="tour-text">
+            Explore the heart of the city like never before with our
+            one-of-a-kind walking tour company, where every step tells a story.
+            We specialize in crafting unforgettable urban adventures that delve
+            deep into the hidden gems and untold tales of our vibrant
+            metropolis.{" "}
+          </p>
+        </section>
+        <Carousel
+          responsive={responsive}
+          swipeable={true}
+          draggable={true}
+          infinite={true}
+        >
+          <div>
+            <div className="city-tour-container">
+              <a className="city-link" href="#">
+                <div key={0} className="city-box">
+                  <div className="city-image">
+                    <img
+                      src={cities[0].cityImage}
+                      alt={`city ${cities[0].name}`}
+                    />
+                  </div>
 
-                <h3 className="city-name">{cities[0].name}</h3>
-                <section className="city-text">{cities[0].titleText}</section>
-                <div className="short-copy">{cities[0].shortCopy}</div>
+                  <h3 className="city-name">{cities[0].name}</h3>
+                  <section className="city-text">{cities[0].titleText}</section>
+                  <div className="short-copy">{cities[0].shortCopy}</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="city-tour-container">
+              <div key={1} className="city-box">
+                <a className="city-link" href="#">
+                  <div className="city-image">
+                    <img
+                      src={cities[1].cityImage}
+                      alt={`city ${cities[1].name}`}
+                    />
+                  </div>
+                </a>
+                <h3 className="city-name">{cities[1].name}</h3>
+                <section className="city-text">{cities[1].titleText}</section>
+                <div className="short-copy">{cities[1].shortCopy}</div>
               </div>
-            </a>
-          </div>
-        </div>
-
-        <div>
-          <div className="city-tour-container">
-            <div key={1} className="city-box">
-              <a className="city-link" href="#">
-                <div className="city-image">
-                  <img
-                    src={cities[1].cityImage}
-                    alt={`city ${cities[1].name}`}
-                  />
-                </div>
-              </a>
-              <h3 className="city-name">{cities[1].name}</h3>
-              <section className="city-text">{cities[1].titleText}</section>
-              <div className="short-copy">{cities[1].shortCopy}</div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <div className="city-tour-container">
-            <div key={2} className="city-box">
-              <a className="city-link" href="#">
-                <div className="city-image">
-                  <img
-                    src={cities[2].cityImage}
-                    alt={`city ${cities[0].name}`}
-                  />
-                </div>
-              </a>
-              <h3 className="city-name">{cities[2].name}</h3>
-              <section className="city-text">{cities[2].titleText}</section>
-              <div className="short-copy">{cities[2].shortCopy}</div>
+          <div>
+            <div className="city-tour-container">
+              <div key={2} className="city-box">
+                <a className="city-link" href="#">
+                  <div className="city-image">
+                    <img
+                      src={cities[2].cityImage}
+                      alt={`city ${cities[0].name}`}
+                    />
+                  </div>
+                </a>
+                <h3 className="city-name">{cities[2].name}</h3>
+                <section className="city-text">{cities[2].titleText}</section>
+                <div className="short-copy">{cities[2].shortCopy}</div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <div className="city-tour-container">
-            <div key={3} className="city-box">
-              <a className="city-link" href="#">
-                <div className="city-image">
-                  <img
-                    src={cities[3].cityImage}
-                    alt={`city ${cities[0].name}`}
-                  />
-                </div>
-              </a>
-              <h3 className="city-name">{cities[3].name}</h3>
-              <section className="city-text">{cities[3].titleText}</section>
-              <div className="short-copy">{cities[3].shortCopy}</div>
+          <div>
+            <div className="city-tour-container">
+              <div key={3} className="city-box">
+                <a className="city-link" href="#">
+                  <div className="city-image">
+                    <img
+                      src={cities[3].cityImage}
+                      alt={`city ${cities[0].name}`}
+                    />
+                  </div>
+                </a>
+                <h3 className="city-name">{cities[3].name}</h3>
+                <section className="city-text">{cities[3].titleText}</section>
+                <div className="short-copy">{cities[3].shortCopy}</div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <div className="city-tour-container">
-            <div key={4} className="city-box">
-              <a className="city-link" href="#">
-                <div className="city-image">
-                  <img
-                    src={cities[4].cityImage}
-                    alt={`city ${cities[0].name}`}
-                  />
-                </div>
-              </a>
-              <h3 className="city-name">{cities[4].name}</h3>
-              <section className="city-text">{cities[4].titleText}</section>
-              <div className="short-copy">{cities[4].shortCopy}</div>
+          <div>
+            <div className="city-tour-container">
+              <div key={4} className="city-box">
+                <a className="city-link" href="#">
+                  <div className="city-image">
+                    <img
+                      src={cities[4].cityImage}
+                      alt={`city ${cities[0].name}`}
+                    />
+                  </div>
+                </a>
+                <h3 className="city-name">{cities[4].name}</h3>
+                <section className="city-text">{cities[4].titleText}</section>
+                <div className="short-copy">{cities[4].shortCopy}</div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <div className="city-tour-container">
-            <div key={5} className="city-box">
-              <a className="city-link" href="#">
-                <div className="city-image">
-                  <img
-                    src={cities[5].cityImage}
-                    alt={`city ${cities[5].name}`}
-                  />
-                </div>
-              </a>
-              <h3 className="city-name">{cities[5].name}</h3>
-              <section className="city-text">{cities[5].titleText}</section>
-              <div className="short-copy">{cities[5].shortCopy}</div>
+          <div>
+            <div className="city-tour-container">
+              <div key={5} className="city-box">
+                <a className="city-link" href="#">
+                  <div className="city-image">
+                    <img
+                      src={cities[5].cityImage}
+                      alt={`city ${cities[5].name}`}
+                    />
+                  </div>
+                </a>
+                <h3 className="city-name">{cities[5].name}</h3>
+                <section className="city-text">{cities[5].titleText}</section>
+                <div className="short-copy">{cities[5].shortCopy}</div>
+              </div>
             </div>
           </div>
-        </div>
-      </Carousel>
+        </Carousel>
+      </div>
     </>
   );
 }
