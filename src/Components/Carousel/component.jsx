@@ -1,16 +1,14 @@
 import NYC from "../../../src/assets/images/NYC.jpg";
 import PHILLY from "../../../src/assets/images/philly.jpg";
 import LA from "../../../src/assets/images/LA.jpg";
+import CHITOWN from "../../../src/assets/images/Chicago.jpg";
+import PHOENIX from "../../../src/assets/images/phoenix.jpg";
+import Denver from "../../../src/assets/images/Denver.jpg";
 import "./styles.css";
 import "animate.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { useInView } from "react-intersection-observer";
 export default function Badge() {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    delay: 500,
-  });
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -60,7 +58,7 @@ export default function Badge() {
     {
       id: 4,
       name: "Chicago, IL",
-      cityImage: PHILLY,
+      cityImage: CHITOWN,
       shortCopy:
         "Experience the Windy City's vibrant culture, iconic architecture, and world-class cuisine. Don't forget to take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at the famous Portillo's!",
       titleText: "Discover the the Windy City",
@@ -68,7 +66,7 @@ export default function Badge() {
     {
       id: 5,
       name: "Phoenix, AZ",
-      cityImage: "Phoenix_Image_URL",
+      cityImage: PHOENIX,
       shortCopy:
         "Experience the desert beauty of Phoenix, Arizona. Hike the Camelback Mountain, visit the Desert Botanical Garden, and enjoy the vibrant Southwestern cuisine. Don't miss the stunning sunsets in the Valley of the Sun!",
       titleText: "Explore the Desert Oasis",
@@ -76,7 +74,7 @@ export default function Badge() {
     {
       id: 6,
       name: "Denver, CO",
-      cityImage: "Denver_Image_URL",
+      cityImage: Denver,
       shortCopy:
         "Discover the Mile-High City, Denver. Explore the Rocky Mountains, stroll through the historic Larimer Square, and indulge in craft beer at local breweries. With its outdoor adventures and cultural attractions, Denver has something for everyone!",
       titleText: "Adventures Await in Denver",
@@ -179,7 +177,7 @@ export default function Badge() {
               <a className="city-link" href="#">
                 <div className="city-image">
                   <img
-                    src={cities[3].cityImage}
+                    src={cities[4].cityImage}
                     alt={`city ${cities[0].name}`}
                   />
                 </div>
@@ -197,7 +195,7 @@ export default function Badge() {
               <a className="city-link" href="#">
                 <div className="city-image">
                   <img
-                    src={cities[3].cityImage}
+                    src={cities[5].cityImage}
                     alt={`city ${cities[5].name}`}
                   />
                 </div>
