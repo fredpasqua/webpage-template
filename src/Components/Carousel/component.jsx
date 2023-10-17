@@ -110,7 +110,7 @@ export default function Badge() {
         >
           <div>
             <div className="city-tour-container">
-              <a className="city-link" href="#">
+              <a className="city-link">
                 <div key={0} className="city-box">
                   <div className="city-image">
                     <img
@@ -130,7 +130,7 @@ export default function Badge() {
           <div>
             <div className="city-tour-container">
               <div key={1} className="city-box">
-                <a className="city-link" href="#">
+                <a className="city-link">
                   <div className="city-image">
                     <img
                       src={cities[1].cityImage}
@@ -148,7 +148,7 @@ export default function Badge() {
           <div>
             <div className="city-tour-container">
               <div key={2} className="city-box">
-                <a className="city-link" href="#">
+                <a className="city-link">
                   <div className="city-image">
                     <img
                       src={cities[2].cityImage}
@@ -166,7 +166,7 @@ export default function Badge() {
           <div>
             <div className="city-tour-container">
               <div key={3} className="city-box">
-                <a className="city-link" href="#">
+                <a className="city-link">
                   <div className="city-image">
                     <img
                       src={cities[3].cityImage}
@@ -184,7 +184,7 @@ export default function Badge() {
           <div>
             <div className="city-tour-container">
               <div key={4} className="city-box">
-                <a className="city-link" href="#">
+                <a className="city-link">
                   <div className="city-image">
                     <img
                       src={cities[4].cityImage}
@@ -202,7 +202,7 @@ export default function Badge() {
           <div>
             <div className="city-tour-container">
               <div key={5} className="city-box">
-                <a className="city-link" href="#">
+                <a className="city-link">
                   <div className="city-image">
                     <img
                       src={cities[5].cityImage}

@@ -88,3 +88,7 @@
     filter: saturate(3);
     opacity: 1;
 }
+
+a {
+    text-decoration: none;
+}
