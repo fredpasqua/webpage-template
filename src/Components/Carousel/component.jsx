@@ -63,7 +63,7 @@ export default function Badge() {
       cityImage: PHILLY,
       shortCopy:
         "Experience the Windy City's vibrant culture, iconic architecture, and world-class cuisine. Don't forget to take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at the famous Portillo's!",
-      titleText: "Discover the Charm of the Windy City",
+      titleText: "Discover the the Windy City",
     },
     {
       id: 5,
@@ -102,21 +102,23 @@ export default function Badge() {
       >
         <div>
           <div className="city-tour-container">
-            <div key={0} className="city-box">
-              <a className="city-link" href="#">
+            <a className="city-link" href="#">
+              <div key={0} className="city-box">
                 <div className="city-image">
                   <img
                     src={cities[0].cityImage}
                     alt={`city ${cities[0].name}`}
                   />
                 </div>
-              </a>
-              <h3 className="city-name">{cities[0].name}</h3>
-              <section className="city-text">{cities[0].titleText}</section>
-              <div className="short-copy">{cities[0].shortCopy}</div>
-            </div>
+
+                <h3 className="city-name">{cities[0].name}</h3>
+                <section className="city-text">{cities[0].titleText}</section>
+                <div className="short-copy">{cities[0].shortCopy}</div>
+              </div>
+            </a>
           </div>
         </div>
+
         <div>
           <div className="city-tour-container">
             <div key={1} className="city-box">
@@ -134,6 +136,7 @@ export default function Badge() {
             </div>
           </div>
         </div>
+
         <div>
           <div className="city-tour-container">
             <div key={2} className="city-box">
@@ -151,6 +154,7 @@ export default function Badge() {
             </div>
           </div>
         </div>
+
         <div>
           <div className="city-tour-container">
             <div key={3} className="city-box">
@@ -168,28 +172,40 @@ export default function Badge() {
             </div>
           </div>
         </div>
-        <div className="city-tour-container">
-          <div key={4} className="city-box">
-            <a className="city-link" href="#">
-              <div className="city-image">
-                <img src={cities[4].cityImage} alt={`city ${cities[0].name}`} />
-              </div>
-            </a>
-            <h3 className="city-name">{cities[4].name}</h3>
-            <section className="city-text">{cities[4].titleText}</section>
-            <div className="short-copy">{cities[4].shortCopy}</div>
+
+        <div>
+          <div className="city-tour-container">
+            <div key={4} className="city-box">
+              <a className="city-link" href="#">
+                <div className="city-image">
+                  <img
+                    src={cities[3].cityImage}
+                    alt={`city ${cities[0].name}`}
+                  />
+                </div>
+              </a>
+              <h3 className="city-name">{cities[4].name}</h3>
+              <section className="city-text">{cities[4].titleText}</section>
+              <div className="short-copy">{cities[4].shortCopy}</div>
+            </div>
           </div>
         </div>
-        <div className="city-tour-container">
-          <div key={5} className="city-box">
-            <a className="city-link" href="#">
-              <div className="city-image">
-                <img src={cities[5].cityImage} alt={`city ${cities[5].name}`} />
-              </div>
-            </a>
-            <h3 className="city-name">{cities[5].name}</h3>
-            <section className="city-text">{cities[5].titleText}</section>
-            <div className="short-copy">{cities[5].shortCopy}</div>
+
+        <div>
+          <div className="city-tour-container">
+            <div key={5} className="city-box">
+              <a className="city-link" href="#">
+                <div className="city-image">
+                  <img
+                    src={cities[3].cityImage}
+                    alt={`city ${cities[5].name}`}
+                  />
+                </div>
+              </a>
+              <h3 className="city-name">{cities[5].name}</h3>
+              <section className="city-text">{cities[5].titleText}</section>
+              <div className="short-copy">{cities[5].shortCopy}</div>
+            </div>
           </div>
         </div>
       </Carousel>
