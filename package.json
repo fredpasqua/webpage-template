@@ -13,9 +13,6 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@mantine/carousel": "^7.1.2",
-    "@mantine/core": "^7.1.2",
-    "@mantine/hooks": "^7.1.2",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.3.2",
     "embla-carousel-react": "^7.1.0",
