@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
-const APIKEY = import.meta.env.VITE_API_KEY;
+
 export default function SimpleMap() {
   const defaultProps = {
     center: {
@@ -27,7 +27,7 @@ export default function SimpleMap() {
       <h2 className="review-title">Our Location</h2>
       <GoogleMapReact
         bootstrapURLKeys={{
-          key: APIKEY,
+          key: "AIzaSyBGewBFwt7Lnz-JRqryaTFDS-rl6CYOBOM",
         }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
