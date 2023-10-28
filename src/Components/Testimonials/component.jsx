@@ -35,7 +35,7 @@ const CityTourReviews = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.7, time: 1 }}
+            transition={{ delay: 0.4, time: 1.5 }}
             className="review-box"
             key={review.id}
           >
