@@ -45,7 +45,7 @@
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 300px) {
+@media (min-width: 360px) {
     .review-title {
             font-size: 32px;
         }
