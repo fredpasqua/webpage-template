@@ -42,7 +42,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 300px) {
+@media (min-width: 360px) {
   .text-element {
     margin: 5px;
     padding-left: 0;
@@ -59,7 +59,7 @@
 
   .text-element p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .text-element {
