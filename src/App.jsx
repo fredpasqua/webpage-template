@@ -13,7 +13,7 @@ function App() {
   };
   return (
     <>
-      {/* <Navigation /> */}
+      <Navigation />
       <div className="app-displayer">
         <Header handleClick={handleClick} />
         <Banner />
