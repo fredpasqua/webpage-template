@@ -3,10 +3,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px;
+    
     }
     
     .city-tours-container {
         background-color: rgba(255, 255, 0, 0.172);
+
     }
     
     .tourText {
@@ -27,7 +29,7 @@
 
 .tourText p {
     color: var(--dar);
-    font-size: 18px;
+    font-size: 23px;
 
 }
 .city-box {
@@ -44,10 +46,11 @@
 }
 
 .short-copy {
+    min-height: 300px;
     max-width: 400px;
     padding: 20px;
     color: var(--lightText);
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .city-image {

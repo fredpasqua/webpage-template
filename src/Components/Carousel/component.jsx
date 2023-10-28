@@ -34,60 +34,59 @@ export default function Badge() {
       name: "New York, NY",
       cityImage: NYC,
       shortCopy:
-        "In New York, join the 'Pizza Parade' tour, where you'll discover that there's no slice like the Big Apple's slice. Warning: You might leave with a pizza-shaped heart, but you won't regret a single cheesy bite!",
-
-      titleText: "Take a bite of the big apple",
+        "Experience NYC's 'Pizza Parade' tour for an unforgettable taste of the Big Apple. Warning: Your heart may become pizza-shaped, but you won't regret a single cheesy bite!",
+      titleText: "Savor the Big Apple's Delights",
     },
     {
       id: 2,
       name: "Philadelphia, PA",
       cityImage: PHILLY,
       shortCopy:
-        "Philadelphia's 'Cheesesteak Shuffle' tour will have you waddling from one iconic cheesesteak joint to another, in a quest to crown the city's cheesesteak champion. You'll leave \"wit\" great memories.",
-
-      titleText: "Brotherly love wit great eats",
+        "Discover Philly's 'Cheesesteak Shuffle' tour, a quest to crown the city's cheesesteak champion. You'll leave with great memories, 'wit' a full stomach!",
+      titleText: "Cheesesteak Quest in Philly",
     },
     {
       id: 3,
       name: "Los Angeles, CA",
       cityImage: LA,
       shortCopy:
-        "Los Angeles' 'Star-Studded Stroll' tour promises a glamorous journey through the city's sidewalks, where you can pretend to be an A-lister while trying to spot actual A-listers. Even the palm trees have agents!",
-      titleText: "Rub elbows with the stars",
+        "Explore LA's 'Star-Studded Stroll' tour and pretend to be an A-lister while trying to spot actual stars. Even the palm trees have agents in this glamorous journey!",
+      titleText: "Glamour in Los Angeles",
     },
     {
       id: 4,
       name: "Chicago, IL",
       cityImage: CHITOWN,
       shortCopy:
-        "Experience the Windy City's vibrant culture, iconic architecture, and world-class cuisine. Don't forget to take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at the famous Portillo's!",
-      titleText: "Discover the the Windy City",
+        "Experience the culture, architecture, and cuisine of the Windy City. Take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at Portillo's!",
+      titleText: "Chicago's Cultural Delights",
     },
     {
       id: 5,
       name: "Phoenix, AZ",
       cityImage: PHOENIX,
       shortCopy:
-        "Experience the desert beauty of Phoenix, Arizona. Hike the Camelback Mountain, visit the Desert Botanical Garden, and enjoy the vibrant Southwestern cuisine. Don't miss the stunning sunsets in the Valley of the Sun!",
-      titleText: "Explore the Desert Oasis",
+        "Explore the desert beauty of Phoenix, Arizona. Hike Camelback Mountain, visit the Desert Botanical Garden, and savor vibrant Southwestern cuisine. Don't miss the stunning sunsets!",
+      titleText: "Discover the Desert Oasis",
     },
     {
       id: 6,
       name: "Denver, CO",
       cityImage: Denver,
       shortCopy:
-        "Discover the Mile-High City, Denver. Explore the Rocky Mountains, stroll through the historic Larimer Square, and indulge in craft beer at local breweries. With its outdoor adventures and cultural attractions, Denver has something for everyone!",
-      titleText: "Adventures Await in Denver",
+        "Discover Denver, the Mile-High City. Explore the Rocky Mountains, stroll through historic Larimer Square, and indulge in craft beer at local breweries. Denver has something for everyone!",
+      titleText: "Adventures in Denver",
     },
     {
       id: 7,
       name: "Las Vegas, NV",
       cityImage: "LasVegas_Image_URL",
       shortCopy:
-        "Experience the dazzling lights and entertainment of Las Vegas. From world-class shows and casinos on the Strip to the natural wonders of Red Rock Canyon, Las Vegas offers a unique blend of excitement and natural beauty.",
-      titleText: "Entertainment Capital of the World",
+        "Experience the dazzling lights and entertainment of Las Vegas, from world-class shows to the natural wonders of Red Rock Canyon. Las Vegas offers excitement and natural beauty!",
+      titleText: "Las Vegas Entertainment",
     },
   ];
+  
 
   return (
     <>
