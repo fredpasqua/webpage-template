@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   const handleClick = () => {
-    alert("button clicked");
+    alert("Thanks for clicking and taking the time to view this demo page. :)");
   };
   return (
     <>
