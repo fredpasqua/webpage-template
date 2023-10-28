@@ -47,59 +47,60 @@
 @media (min-width: 360px) {
 
     .HeaderBox {
-        height: 100vh;
-        
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .HeaderText {
+      height: 100vh;
+      width: 100vw;
         display: flex;
-            flex-direction: column;
-            align-items: center;
-        min-width: 350px !important;
+        flex-direction: column;
+      align-items: center;
+    .HeaderText {
+      min-width: 350px !important;
     }
 
-    .HeaderText h2 {
-        font-size: 32px;
-            padding: 1rem;
-    }
+        .HeaderText h2 {
+          font-size: 28px;
 
-    .HeaderText p {
-        text-align: center;
-        font-size: 23px;
-    }
-
-    .Header-Button {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-
-    .HeaderBoxImage img {
-        position: relative;
-            left: 10px;
-            height: 325px;
-            margin-right: auto;
-            margin-left: auto;
-    }
-}
-
-@media (min-width: 576px) {
-    /* Add specific styles for this screen size if needed */
-
-}
-
-@media (min-width: 768px) {
-    .HeaderBox {
-        height: 400px;
-    flex-direction: row-reverse;
-    }
     
 
-    .HeaderText h2 {
-        font-size: 42px;
+        .HeaderText p {
+          font-size: 23px;
+        }
+
+        .Header-Button {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .HeaderBoxImage img {
+          position: relative;
+      margin-left: auto;
+      margin-right: auto;
+        height: 300px;
+        top: -50px;
+        left: 20px;
+      }
+
     }
+
+@media (min-width: 576px) {
+  .HeaderText h2 {
+    font-size: 32px;
+  }
+
+  .HeaderBoxImage img {
+    height: 250px;
+    transition: all 0.5s ease-out;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.HeaderBox {
+    height: 400px;
+}
+  
+  .HeaderText h2 {
+    font-size: 42px;
+  }
 
     .HeaderText p {
         font-size: 19px;
@@ -108,9 +109,10 @@
         text-align: left;
     }
 
-    .HeaderBoxImage img {
-        height: 150px;
-    }
+  .HeaderBoxImage img {
+    height: 300px;
+    transition: all 0.5s ease-out;
+  }
 }
 
 @media (min-width: 992px) {
