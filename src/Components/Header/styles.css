@@ -59,12 +59,15 @@
   .HeaderBox {
     flex-wrap: wrap;
     flex-direction: column;
-    height: 300px;
+    height: 375px;
   }
 
   .HeaderText h2 {
     font-size: 28px;
   }
+.HeaderText p {
+  font-size: 23px;
+}
 
   .HeaderBoxImage img {
     position: relative;
