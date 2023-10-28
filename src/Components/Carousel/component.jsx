@@ -8,6 +8,7 @@ import "./styles.css";
 import "animate.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
 export default function Badge() {
   const responsive = {
     superLargeDesktop: {
@@ -86,11 +87,10 @@ export default function Badge() {
       titleText: "Las Vegas Entertainment",
     },
   ];
-  
 
   return (
     <>
-      <div className="city-tours-container">
+      <div>
         <section className="tourText">
           <h2 className="review-title">City Tours</h2>
           <p className="tour-text">

@@ -3,7 +3,7 @@ import girl1 from "../../../src/assets/images/girl-denim-shirt.jpg";
 import man1 from "../../../src/assets/images/guy-black-shirt.jpg";
 import girl2 from "../../../src/assets/images/girl-blue-shirt.jpg";
 import StarRating from "./starRating";
-
+import { motion } from "framer-motion";
 const CityTourReviews = () => {
   // Sample review data (you can replace it with your own data)
   const reviews = [
@@ -32,7 +32,13 @@ const CityTourReviews = () => {
       <h2 className="review-title">Tour Reviews</h2>
       <div className="city-tour-reviews">
         {reviews.map((review) => (
-          <div className="review-box" key={review.id}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.7, time: 1 }}
+            className="review-box"
+            key={review.id}
+          >
             <div className="user-image">
               <img src={review.userImage} alt={`User ${review.id}`} />
             </div>
@@ -40,7 +46,7 @@ const CityTourReviews = () => {
               <StarRating rating={review.rating} />
             </div>
             <div className="review-text">{review.reviewText}</div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
