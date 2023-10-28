@@ -90,7 +90,7 @@ export default function Badge() {
 
   return (
     <>
-      <div>
+      <div className="city-tours-container">
         <section className="tourText">
           <h2 className="review-title">City Tours</h2>
           <p className="tour-text">

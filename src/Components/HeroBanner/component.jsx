@@ -1,6 +1,5 @@
 import './styles.css';
-import 'animate.css';
-import { motion } from "framer-motion";
+import "animate.css";
 import { useInView } from "react-intersection-observer";
 import girl from "../../../src/assets/images/girl.png";
 
@@ -12,12 +11,7 @@ export default function Banner() {
 
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-        className="background"
-      >
+      <div className="background">
         <div className="parent">
           <div
             ref={ref}
@@ -49,7 +43,7 @@ export default function Banner() {
             />
           </div>
         </div>
-      </motion.div>
+      </div>
     </>
   );
 }
