@@ -46,23 +46,29 @@
 /* Media queries */
 @media (min-width: 360px) {
   .HeaderBox {
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 
   .HeaderText {
     min-width: 350px !important;
+    text-align: center;
   }
 
   .HeaderText h2 {
-    font-size: 28px;
+    font-size: 32px;
+      text-align: center;
+      padding: 10px;
   }
 
   .HeaderText p {
+    padding: 5px;
     font-size: 23px;
+    text-align: justify;
+      text-wrap: balance;
   }
 
   .Header-Button {
@@ -74,9 +80,9 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
-    top: -50px;
     left: 20px;
+    height: 300px;
+  
   }
 }
 
