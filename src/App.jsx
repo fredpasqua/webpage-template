@@ -16,8 +16,8 @@ function App() {
       <Navigation />
       <div className="app-displayer">
         <Header handleClick={handleClick} />
-        <Banner />
         <Badge />
+        <Banner />
         <CityTourReviews />
         <MapContainer />
       </div>

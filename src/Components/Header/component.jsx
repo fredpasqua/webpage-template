@@ -1,12 +1,14 @@
 import "./styles.css";
 import walking from "../../../src/assets/images/citywalking.jpg";
 import { Button } from "react-bootstrap";
+
+
 export default function Header(props) {
   return (
     <>
       <div className="HeaderBox">
         <div className="HeaderBoxImage">
-          <img src={walking} alt="couple walking"></img>
+          <img loading="lazy" src={walking} alt="couple walking"></img>
         </div>
         <div className="HeaderText">
           <h2>Make a connection</h2>
