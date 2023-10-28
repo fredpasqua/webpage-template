@@ -47,7 +47,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 360px) {
     .review-title {
-            font-size: 32px;
+            font-size: 30px;
         }
     .city-tour-reviews {
         display: flex;
@@ -64,7 +64,7 @@
             margin-bottom: 0px;
                 margin-top: 0px;
         border: none;
-        padding: 5px;
+        padding: 15px;
         width: 100vw;
         height: 250px;
         
@@ -74,8 +74,8 @@
     }
 
     .user-image img {
-        width: 75px;
-            height: 75px;
+        width: 100px;
+            height: 100px;
             margin: 10px;
         border-radius: 50%;
         margin-bottom: 10px;
