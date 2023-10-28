@@ -155,9 +155,11 @@
     display: flex;
     justify-content: space-around;
     height: 475px;
-    width: 80vw;
+    width: 60vw;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    margin-left: auto;
+      margin-right: auto;
   }
 
   .HeaderBoxImage img {

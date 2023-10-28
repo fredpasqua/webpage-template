@@ -35,7 +35,7 @@ export default function Badge() {
       cityImage: NYC,
       shortCopy:
         "Experience NYC's 'Pizza Parade' tour for an unforgettable taste of the Big Apple. Warning: Your heart may become pizza-shaped, but you won't regret a single cheesy bite!",
-      titleText: "Savor the Big Apple's Delights",
+      titleText: "Savor the Big Apple",
     },
     {
       id: 2,
@@ -59,7 +59,7 @@ export default function Badge() {
       cityImage: CHITOWN,
       shortCopy:
         "Experience the culture, architecture, and cuisine of the Windy City. Take an architecture boat tour along the Chicago River and savor a classic Chicago-style hot dog at Portillo's!",
-      titleText: "Chicago's Cultural Delights",
+      titleText: "Chicago Delights",
     },
     {
       id: 5,
